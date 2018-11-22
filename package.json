@@ -10,10 +10,6 @@
     "e2e": "ng e2e",
     "postinstall": "ng build --aot -prod"
   },
-  "engines": {
-    "node": "8.10.0",
-    "npm": "3.5.2"
-  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^6.0.0",
@@ -58,8 +54,8 @@
     "tslint": "~5.9.1",
     "typescript": "~2.7.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cool-webpro17/angular6"
+  "engines": {
+    "node": "8.10.0",
+    "npm": "3.5.2"
   }
 }
